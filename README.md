@@ -50,6 +50,9 @@ Arduino Uno	      Ultrasonic Sensor	      Servo Motor
     D10	                 Trig	                 -
     D11	                 Echo	                 -
     D12	                  -	                 Signal
+    
+    ![image](https://user-images.githubusercontent.com/91609293/135743629-52dec4d9-66f0-4e25-ac58-24f2838a7af0.png)
+
 
 
 We need two software to complete this Arduino radar project. 
