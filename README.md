@@ -2,7 +2,7 @@
 How to make a radar using arduino
 
 Parts we needed to make this project:
-Hardware:
+ Hardware:
     Arduino UNO
     HC-SR04 Ultrasonic Sensor  
     TowerPro SG90 Servo Motor  
@@ -12,7 +12,7 @@ Hardware:
     5V Power Supply  
     USB Cable   
 
-Software:
+ Software:
     Arduino IDE (https://www.arduino.cc/en/software)
     Processing Application (https://processing.org/download)
 
@@ -57,12 +57,12 @@ Hardware Connection
 
 The below image shows the connection of the Arduino radar project. The connections are very simple. Here, we have interfaced the ultrasonic sensor and servo motor with an Arduino Uno. The connection details are,
 
-Arduino Uno	      Ultrasonic Sensor	      Servo Motor
-    Vcc	                 Vcc	                Vcc
-    Gnd	                 Gnd	                Gnd
-    D10	                 Trig	                 -
-    D11	                 Echo	                 -
-    D12	                  -	                 Signal   
+ Arduino Uno	      Ultrasonic Sensor	      Servo Motor
+      Vcc	                 Vcc	                Vcc
+      Gnd	                 Gnd	                Gnd
+      D10	                 Trig	                 -
+      D11	                 Echo	                 -
+      D12	                  -	                 Signal   
 
 
 ![Arduino-Radar-Project-Circuit-Diagram](https://user-images.githubusercontent.com/91609293/135743886-c4207a4d-d666-4bc5-b82a-fc0e7311ad00.jpg)
