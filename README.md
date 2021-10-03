@@ -2,10 +2,22 @@
 How to make a radar using arduino
 
 Parts we needed to make this project:
-1. Arduino board
-2. Ultrasonic Sensor
-3. Servo Motors
-4. Laptop(or desktop for the output)
+Hardware
+
+    Arduino UNO
+    HC-SR04 Ultrasonic Sensor  
+    TowerPro SG90 Servo Motor  
+    Mounting Bracket for Ultrasonic Sensor 
+    Connecting Wires  
+    Jumper Cables  
+    5V Power Supply  
+    USB Cable   
+
+Software
+
+    Arduino IDE (https://www.arduino.cc/en/software)
+    Processing Application (https://processing.org/download)
+
 
 How does Radar Work?
 
@@ -40,6 +52,9 @@ This closed-loop system includes a control circuit, servo motor, shaft, potentio
 The servo motor is unlike a standard electric motor which starts and stops according to the power input. According to the signal, the servo motor will work.
 Nowadays, servo motors are widely used in industrial and robotics applications. They are also commonly seen in remote-controlled toy cars, RC planes, and in the CD or DVD player. Besides these, we see hundreds of applications in our daily life that use a servo motor. To know more about the servo motor, refer to the servo motor working principle.
 
+
+![Arduino-Radar-Project-Image-1](https://user-images.githubusercontent.com/91609293/135743883-d419048a-967b-493e-b696-cafeceb360c4.jpg)
+
 Hardware Connection
 
 The below image shows the connection of the Arduino radar project. The connections are very simple. Here, we have interfaced the ultrasonic sensor and servo motor with an Arduino Uno. The connection details are,
@@ -49,17 +64,9 @@ Arduino Uno	      Ultrasonic Sensor	      Servo Motor
     Gnd	                 Gnd	                Gnd
     D10	                 Trig	                 -
     D11	                 Echo	                 -
-    D12	                  -	                 Signal
-    
-    ![image](https://user-images.githubusercontent.com/91609293/135743629-52dec4d9-66f0-4e25-ac58-24f2838a7af0.png)
+    D12	                  -	                 Signal   
 
 
-
-We need two software to complete this Arduino radar project. 
-One is Arduino IDE, and the other is Processing IDE. 
-Download both Software from the below links:
-Arduino IDE: https://www.arduino.cc/en/software
-Processing IDE: https://processing.org/download
-
+![Arduino-Radar-Project-Circuit-Diagram](https://user-images.githubusercontent.com/91609293/135743886-c4207a4d-d666-4bc5-b82a-fc0e7311ad00.jpg)
 
 
