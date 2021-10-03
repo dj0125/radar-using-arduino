@@ -2,8 +2,7 @@
 How to make a radar using arduino
 
 Parts we needed to make this project:
-Hardware
-
+Hardware:
     Arduino UNO
     HC-SR04 Ultrasonic Sensor  
     TowerPro SG90 Servo Motor  
@@ -13,8 +12,7 @@ Hardware
     5V Power Supply  
     USB Cable   
 
-Software
-
+Software:
     Arduino IDE (https://www.arduino.cc/en/software)
     Processing Application (https://processing.org/download)
 
